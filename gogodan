@@ -1,0 +1,26 @@
+
+/**
+ * do while과 while을 이용한 구구단 프로그램
+ * 
+ * 2022320035 배우준  
+ * 2023/03/31
+ */
+public class 실습2
+{
+public static void main(String [] args){
+    int dan = 2;
+    int j = 1;
+    int gop = 0;
+    do {
+        do {
+            gop = dan * j;
+            System.out.print(dan + "*" + j + " = " + dan * j + "  ");
+            j++;
+        } while (j < 10);
+        dan++;
+        j = 1;
+        System.out.println(" ");  
+    } while (dan < 10);
+}
+
+}
